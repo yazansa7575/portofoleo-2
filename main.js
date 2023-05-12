@@ -80,9 +80,7 @@ submit.onclick = function () {
             + "My Email is : " + email + "%0a"
             + "Message : " + message + "%0a";
         window.open(url, '_blank').focus();
-        message = ""
-        email = ""
-        name = ""
+
     }
 
 
