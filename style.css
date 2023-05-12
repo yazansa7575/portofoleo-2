@@ -1057,7 +1057,7 @@ body {
 /* make web site responsive */
 @media screen and (min-width:250px) and (max-width:600px) {
     .meet {
-        top: 57%;
+        top: 59%;
         width: 371px;
     }
 
