@@ -74,14 +74,15 @@ submit.onclick = function () {
         alert(" The fields are empty!");
         return false;
     } else {
-        message = ""
-        email = ""
-        name = ""
+     
         var url = "https://wa.me/+963958887575?text="
             + "My Name is: " + name + "%0a"
             + "My Email is : " + email + "%0a"
             + "Message : " + message + "%0a";
         window.open(url, '_blank').focus();
+        message = ""
+        email = ""
+        name = ""
     }
 
 
