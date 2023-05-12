@@ -14,32 +14,26 @@ const clickeQ = (theQ) => {
     layerBeforePeper.style.backgroundColor = "#272727bd"
     switch (theQ) {
         case "PER-INFO":
-            console.log(theQ);
             PERINFO.style.visibility = "visible";
             PERINFO.style.display = "flex";
             break;
         case "PROJECTS":
-            console.log(theQ);
             projects.style.visibility = "visible";
             projects.style.display = "flex";
             break;
         case "SKILLS":
-            console.log(theQ);
             SKILLS.style.visibility = "visible";
             SKILLS.style.display = "flex";
             break;
         case "EXPERIENCE":
-            console.log(theQ);
             EXPERIENCE.style.visibility = "visible";
             EXPERIENCE.style.display = "flex";
             break;
         case "EDUCATION":
-            console.log(theQ);
             EDUCATION.style.visibility = "visible";
             EDUCATION.style.display = "flex";
             break;
         case "CONTACT":
-            console.log(theQ);
             CONTACT.style.visibility = "visible";
             CONTACT.style.display = "flex";
             break;
