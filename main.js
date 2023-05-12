@@ -77,7 +77,7 @@ submit.onclick = function () {
         message = ""
         email = ""
         name = ""
-        var url = "https://wa.me/+963930722790?text="
+        var url = "https://wa.me/+963958887575?text="
             + "My Name is: " + name + "%0a"
             + "My Email is : " + email + "%0a"
             + "Message : " + message + "%0a";
