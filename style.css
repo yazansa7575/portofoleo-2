@@ -44,6 +44,7 @@ body {
 
 }
 
+
 .layerBeforePeper {
     position: fixed;
     top: 0;
@@ -112,7 +113,7 @@ body {
 
 
 .meet {
-    position: absolute;
+    position: relative;
     top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -120,6 +121,17 @@ body {
     height: max-content;
 
 
+}
+
+.meet::after {
+    content: "";
+    position: absolute;
+    bottom: -360px;
+    left: -50%;
+    width: 200%;
+    height: 416px;
+    background-color: rgb(199, 200, 202);
+    z-index: -100;
 }
 
 .meet img {
@@ -762,7 +774,7 @@ body {
         display: block;
         width: 100%;
     }
-   
+
 }
 
 
@@ -1055,6 +1067,13 @@ body {
 
 
 /* make web site responsive */
+@media screen and (min-width:1000px) and (max-width:2000px) {
+    .meet::after {
+        display: none;
+    }
+
+}
+
 @media screen and (min-width:250px) and (max-width:600px) {
     .meet {
         top: 59%;
