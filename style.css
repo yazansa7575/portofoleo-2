@@ -1071,6 +1071,9 @@ body {
     .meet::after {
         display: none;
     }
+    .meet {
+        top: 63%;
+    }
 
 }
 
